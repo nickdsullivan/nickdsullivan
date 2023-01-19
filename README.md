@@ -1,5 +1,7 @@
-Current Project: Wave Form Collapse.
+Current Project: ML Reversi/Othello
 
-I will be working on a modified version of the terrain generation method Wave Form Collapse. Instead of strictly lowering possibilities with every tile placed I think some placements should add new possibilities ie(pyramids can only go in the middle of the desert so only if all tiles in x direction are desert can a pyramid be placed). Or only if the world is big enough can it have mountains or an ocean.
+My friend always beats me at Othello so I am going to make something she can't beat.  I'm going to use a variety of algorithms and then try and rank them on an elo scale.  Some of the algorithms are going to be a bit silly and others more serious.  I think it will be interesting to see which ones come out on top.  
 
-The main idea of Wave Form Collapse is to lower some tiles likely hood to zero (thus increase all of rest of the tiles by a fixed amount). The increase in likelyhood should be unevenly distributed even allowing previously 0% tiles to now have a chance (ie pyramid or oasis's jungle in the desert). And waves should propagate further than 1 tile away.
+If I have time I will add a visual component to it but for now it will just run in the console.
+I am writing this in C++ so I can teach myself openGL when I add the visual component.  
+
